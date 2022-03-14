@@ -1,0 +1,41 @@
+.diaryinfo {
+  width: 100%;
+  min-height: 100%;
+  padding: 20px 100px;
+}
+
+.diaryinfo h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  letter-spacing: 1.5px;
+}
+
+.diaryinfo .diaryhint ul{
+  margin-top: 30px;
+}
+
+.diaryinfo .diaryhint li{
+ list-style: none;
+ margin-top: 25px;
+ transition: all 0.3s;
+ color: var(--primary-color);
+}
+
+.diaryinfo .diaryhint li:hover{
+  text-shadow: 0 3px 8px rgb(0, 0, 0, 0.4);
+  transform: skewY(-3deg);
+  color: var(--primary-color);
+}
+
+.diaryinfo .diaryhint{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px ;
+}
+
+.diaryinfo .diaryhint .bg2pic{
+  width: 800px;
+  height: 600px;
+}
+

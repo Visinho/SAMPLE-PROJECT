@@ -1,0 +1,156 @@
+.entrybox {
+  width: 100%;
+  padding: 20px 100px;
+}
+
+.entrybox .entrylength {
+  display: inline-block;
+  padding: 10px 12px;
+  margin-right: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background-color: var(--primary-color);
+  color: var(--primary-color2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.entrybox .entrylength span {
+  margin-left: 80px;
+}
+
+.entrybox .entrylist {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.entries {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: var(--primary-color2);
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 5px 20px;
+  color: #333;
+  width: 400px;
+  min-height: 200px;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.entries .span {
+  width: 70px;
+  height: 70px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  position: absolute;
+  top: 87%;
+  left: 40%;
+}
+
+.entries .date {
+  font-size: 11px;
+  font-weight: 100;
+  letter-spacing: 0.6px;
+  text-align: end;
+  color: #999;
+}
+
+.entries .title {
+  font-size: 17px;
+}
+
+.entries .content {
+  display: block;
+  font-size: 15px;
+  font-weight: 200;
+  margin: 10px  0;
+  width: 350px;
+  min-height: 150px;
+}
+
+.entries .btn {
+  text-align: end;
+}
+
+.entries .btn .btnblack,
+.entries .btn .btnred{
+  display: inline-block;
+  border: none;
+  font-size: 20px;
+  margin: 5px;
+  color: #555;
+  outline: none;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.entries .btn .btnblack:hover,
+.entries .btn .btnred:hover{
+ color: #333;
+ transform: scale(0.80);
+}
+
+.update {
+  background-color: var(--primary-color2);
+  padding: 30px;
+  color: #333;
+  min-height: 200px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  border-radius: 2px;
+  width: 400px;
+  min-height: 250px;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.update .span {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(233, 219, 94);
+  border-radius: 5px;
+  position: absolute;
+  top: 87%;
+  left: 40%;
+}
+
+.update .updatetitle {
+  border: none;
+  font-size: 17px;
+  background-color: var(--primary-color2);
+  outline: none;
+}
+
+.update .updateentries {
+  border: none;
+  width: 100%;
+  min-height: 15vh;
+  background-color: var(--primary-color2);
+  font-size: 15px;
+  margin: 20px 0 20px 0;
+  color: #333;
+  outline: none;
+  overflow: hidden;
+}
+
+.update .btnblue {
+  display: inline-block;
+  padding: 8px 13px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--primary-color2);
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  font-size: 13px;
+  outline: none;
+  border: none;
+  transition: all .3s;
+}
+
+.update .btnblue:hover {
+  transform: scale(0.98);
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+} 
+
